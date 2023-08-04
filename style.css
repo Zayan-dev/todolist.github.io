@@ -1,0 +1,161 @@
+* {
+    list-style: none;
+    font-family: 'Ysabeau Infant', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+}
+
+/* .notShow{
+    display: none;
+} */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: white;
+    position: sticky;
+    /* top: -4rem; */
+}
+
+.container {
+    background: url('images/dddepth-339.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 100%;
+    min-height: 97vh;
+    margin-top: 0.6rem;
+    box-shadow: 1px 1px 10px black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.enterData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    /* border: 1px solid red; */
+    width: 70%;
+}
+
+.inputText {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+.inputText::placeholder {
+    color: white;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.addBtn {
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 6rem;
+    border-radius: 3rem;
+    border: 2px solid white;
+    transition: all 0.4s ease-in-out;
+
+}
+
+button {
+    border: none;
+}
+
+.addBtn:hover {
+    background: rgba(10, 4, 87, 0.5);
+    background: linear-gradient(35deg, rgba(9, 4, 87, 1) 9%, rgba(48, 12, 12, 1) 54%, rgba(69, 63, 96, 1) 90%);
+    border: 2px solid black;
+}
+
+
+.personData {
+    min-height: 50vh;
+    width: 50vw;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: auto; */
+    /* border: 1px solid red; */
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.parentList {
+    /* background-color:aqua; */
+    padding: 1rem;
+    width: 100%;
+}
+
+.listItem {
+    color: white;
+    /* text-align: center; */
+    padding: 0.5rem;
+    margin: 0.5rem;
+    /* background-color: rgba(255, 255, 0, 0.438); */
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-word;
+    font-size: 1.2rem;
+    /* height: 100%; */
+}
+
+.removeBtn {
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    /* padding:1rem; */
+    /* border-radius: 50%;
+    /* background-color: grey; */
+    margin-left: 0.3rem;
+    margin-right: 1ren;
+
+    /* border: 1px solid black;  */
+}
+
+.remBtn {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    /* padding-left:0.5rem;  */
+    border-radius: 50%;
+    /* margin:0.5rem; */
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.2s ease-in-out;
+}
+
+.remBtn:hover {
+    background-color: #44d390;
+    border: none;
+    color: white;
+    
+}
